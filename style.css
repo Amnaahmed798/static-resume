@@ -1,0 +1,155 @@
+
+body{
+    font-style:'Poppins',sans-serif;
+}
+.container1{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    grid-template-rows: 1850px px;
+}
+.box1{
+    background-color:rgb(110, 35, 81);
+    color:white;
+    line-height: 35px; 
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box1 img{
+    border-radius: 50%;
+    border:9px solid;
+    object-fit: cover;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+    align-items: center;
+}
+.main h1{
+ font-weight: 900;
+ font-size: 60px;
+ animation: glitter-text 2s infinite;
+
+}
+.box2{
+    background-color:rgb(225, 225, 228);
+    color:rgb(148, 66, 107); 
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:23px;
+    line-height: 40px;
+    
+}
+.intro h1{
+    font-weight:700;
+    font-size:97px;
+    margin-bottom:0px;
+  
+}
+.intro p{
+    font-size: 30px;
+}
+.button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color:rgb(141, 54, 108);
+    color: white;
+    border: 4px solid rgb(10, 10, 10);
+    border-radius: 8%;
+    height: 45px;
+    padding: 10px 15px;
+    animation: glitter-text 2s infinite;
+}
+.button:hover{
+    background-color: white;
+    color: rgb(121, 55, 91);
+}
+
+@media (max-width: 1200px) { /* Large tablets and small laptops */
+    .container1 {
+        grid-template-columns: 1fr; /* Stack columns */
+        grid-template-rows: auto auto; /* Stack rows */
+    }
+
+    .box1, .box2 {
+        padding: 15px; /* Reduce padding */
+        font-size: 18px; /* Reduce font size */
+    }
+
+    .main h1 {
+        font-size: 50px; /* Slightly smaller heading */
+    }
+
+    .intro h1 {
+        font-size: 80px; /* Reduce intro heading */
+    }
+
+    .intro p {
+        font-size: 24px; /* Reduce intro paragraph */
+    }
+
+    .button {
+        width: 100%; /* Make buttons full width */
+        padding: 12px; /* Adjust padding for buttons */
+    }
+}
+
+@media (max-width: 768px) { /* Tablets and small screens */
+    .container1 {
+        grid-template-columns: 1fr; /* Stack columns */
+    }
+
+    .box1, .box2 {
+        padding: 10px; /* Further reduce padding */
+        font-size: 16px; /* Further reduce font size */
+    }
+
+    .main h1 {
+        font-size: 40px; /* Smaller heading */
+    }
+
+    .intro h1 {
+        font-size: 60px; /* Smaller intro heading */
+    }
+
+    .intro p {
+        font-size: 20px; /* Smaller intro paragraph */
+    }
+
+    .button {
+        font-size: 18px; /* Smaller button font size */
+        padding: 10px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile devices */
+    .container1 {
+        grid-template-columns: 1fr; /* Stack columns */
+        padding: 10px; /* Add padding around the container */
+    }
+
+    .box1, .box2 {
+        padding: 10px; /* Standardize padding */
+        font-size: 14px; /* Reduce font size for small screens */
+    }
+
+    .main h1 {
+        font-size: 30px; /* Smaller heading */
+    }
+
+    .intro h1 {
+        font-size: 40px; /* Smaller intro heading */
+    }
+
+    .intro p {
+        font-size: 18px; /* Smaller intro paragraph */
+    }
+
+    .button {
+        font-size: 16px; /* Smaller button font size */
+        padding: 8px; /* Adjust padding */
+    }
+}
+@keyframes glitter-text {
+    0%, 100% { text-shadow: 1px 1px 2px rgba(253, 252, 252, 0.8), 0 0 10px rgba(255, 255, 255, 0.5); }
+    50% { text-shadow: 1px 1px 5px rgba(255, 255, 255, 1), 0 0 15px rgba(255, 255, 255, 0.8); }
+}
