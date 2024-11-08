@@ -1,3 +1,4 @@
+
 # Static Resume
 
 A static resume webpage built using **HTML**, **CSS**, and **TypeScript**. This project provides a responsive and clean interface to showcase your skills, experience, and projects in a simple and accessible way.
@@ -26,28 +27,28 @@ Make sure you have the following tools installed:
    ```bash
    git clone https://github.com/yourusername/static-resume.git
 
- ## Navigate to the project directory:
+ ### Navigate to the project directory:
  
 bash
 cd static-resume
 
-## Install the necessary dependencies:
+### Install the necessary dependencies:
 
 bash
 npm install
 
-## Compile TypeScript:
+### Compile TypeScript:
 
 bash
 npm run build
 
-## Running the Project
+### Running the Project
 
 After compiling the TypeScript, you can open the index.html file in your browser to view the resume.
 
 Alternatively, you can use a live server (like the Live Server extension in VS Code) to load the project dynamically and see your changes in real-time.
 
-# Folder Structure
+## Folder Structure
 
 plaintext
 static-resume/
@@ -60,7 +61,7 @@ static-resume/
 └── README.md                # Project documentation
 
 
-# Customization
+## Customization
 
 HTML: Edit index.html to update your personal information, skills, and projects.
 CSS: Modify styles.css for styling changes like colors, fonts, and layout adjustments.
