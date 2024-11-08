@@ -25,21 +25,30 @@ Make sure you have the following tools installed:
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/static-resume.git
-   #Navigate to the project directory:
+
+ # Navigate to the project directory:
+ 
 bash
 cd static-resume
-#Install the necessary dependencies:
+
+# Install the necessary dependencies:
+
 bash
 npm install
-#Compile TypeScript:
+
+# Compile TypeScript:
+
 bash
 npm run build
-###Running the Project
+
+# Running the Project
+
 After compiling the TypeScript, you can open the index.html file in your browser to view the resume.
 
 Alternatively, you can use a live server (like the Live Server extension in VS Code) to load the project dynamically and see your changes in real-time.
 
-###Folder Structure
+# Folder Structure
+
 plaintext
 static-resume/
 ├── src/
@@ -49,18 +58,27 @@ static-resume/
 ├── dist/
 │   └── main.js              # Compiled JavaScript file
 └── README.md                # Project documentation
-###Customization
+
+
+# Customization
+
 HTML: Edit index.html to update your personal information, skills, and projects.
 CSS: Modify styles.css for styling changes like colors, fonts, and layout adjustments.
 TypeScript: Use main.ts to add any interactive elements or animations.
-###Deployment
+
+## Deployment
 You can deploy this project using GitHub Pages or Vercel:
 
-###GitHub Pages: Push your code to a GitHub repository, then enable Pages in the repository settings.
-###Vercel: Link your repository and deploy automatically through Vercel.
+## GitHub Pages:
+Push your code to a GitHub repository, then enable Pages in the repository settings.
+
+## Vercel:
+Link your repository and deploy automatically through Vercel.
 Contributing
 If you would like to contribute to this project, please fork the repository and create a pull request with your improvements.
-###License
+
+### License
+
 This project is licensed under the MIT License.
 
 Feel free to customize this resume to suit your needs. Happy coding!
