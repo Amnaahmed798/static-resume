@@ -26,22 +26,22 @@ Make sure you have the following tools installed:
    ```bash
    git clone https://github.com/yourusername/static-resume.git
 
- # Navigate to the project directory:
+ ## Navigate to the project directory:
  
 bash
 cd static-resume
 
-# Install the necessary dependencies:
+## Install the necessary dependencies:
 
 bash
 npm install
 
-# Compile TypeScript:
+## Compile TypeScript:
 
 bash
 npm run build
 
-# Running the Project
+## Running the Project
 
 After compiling the TypeScript, you can open the index.html file in your browser to view the resume.
 
@@ -77,7 +77,7 @@ Link your repository and deploy automatically through Vercel.
 Contributing
 If you would like to contribute to this project, please fork the repository and create a pull request with your improvements.
 
-### License
+## License
 
 This project is licensed under the MIT License.
 
